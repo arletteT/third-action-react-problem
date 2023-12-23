@@ -13,8 +13,8 @@ jobs:
       - name: install_dependencies
         run: npm ci
       - name: run_lint
-        run: npm lint
+        run: npm run lint
       - name: run_tests
-        run: npm test
+        run: npm run test
       - name: run_build
-        run: npm build
+        run: npm run build
