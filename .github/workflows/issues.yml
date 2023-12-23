@@ -1,4 +1,4 @@
-name: handle_issues
+name: handles_issues
 on: issues
 jobs:
   info:
