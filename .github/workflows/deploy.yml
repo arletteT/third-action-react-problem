@@ -2,7 +2,7 @@ name: ldeploy
 on: [push]
 jobs:
   deploy:
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
       - name: get-code
         uses: actions/checkout@v4
