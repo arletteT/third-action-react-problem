@@ -1,7 +1,7 @@
-name: lint_test_build
+name: ldeploy
 on: [push]
 jobs:
-  lint:
+  deploy:
     runs-on: ubuntu_latest
     steps:
       - name: get-code
@@ -14,33 +14,7 @@ jobs:
         run: npm ci
       - name: run_lint
         run: npm lint
-
-  test:
-    needs: lint
-    runs-on: ubuntu_latest
-    steps:
-      - name: get-code
-        uses: actions/checkout@v4
-      - name: install_nodejs
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-      - name: install_dependencies
-        run: npm ci
       - name: run_tests
         run: npm test
-
-  build:
-    needs: test
-    runs-on: ubuntu_latest
-    steps:
-      - name: get-code
-        uses: actions/checkout@v4
-      - name: install_nodejs
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-      - name: install_dependencies
-        run: npm ci
       - name: run_build
         run: npm build
