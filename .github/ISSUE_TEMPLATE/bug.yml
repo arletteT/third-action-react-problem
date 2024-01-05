@@ -11,8 +11,8 @@ body:
       Thanks for taking the time to fill out this bug report!
       Bug Report issues are for concrete, actionable bugs only
     options:
-      - label: Green
-        required: true
+      - label: I agree to follow this project's code of conduct.
+      - label: I have checked the current issues for duplicates.
   validations:
     required: false
 
