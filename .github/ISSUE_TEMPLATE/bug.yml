@@ -64,7 +64,7 @@ body:
 # MARKDOWN:
 - type: markdown
   id: markdown
-    value: "## Welcome!"
+  value: "## Welcome!"
   validations:
     required: false
     
