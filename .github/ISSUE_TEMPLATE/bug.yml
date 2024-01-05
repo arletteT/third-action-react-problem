@@ -71,10 +71,10 @@ body:
  # MARKDOWN WITH MULTI-LINE CONTENT:
 - type: markdown
   id: markdown_with_multiline_content
-    value: |
-      ## Welcome!
-      This type of entry can be used to communicate with the user
-      without asking for any input.
+  value: |
+    ## Welcome!
+    This type of entry can be used to communicate with the user
+    without asking for any input.
   validations:
     required: false
 
