@@ -64,17 +64,19 @@ body:
 # MARKDOWN:
 - type: markdown
   id: markdown
-  value: "## Welcome!"
+  attributes:
+    value: "## Welcome!"
   validations:
     required: false
     
  # MARKDOWN WITH MULTI-LINE CONTENT:
 - type: markdown
   id: markdown_with_multiline_content
-  value: |
-    ## Welcome!
-    This type of entry can be used to communicate with the user
-    without asking for any input.
+  attributes:
+    value: |
+      ## Welcome!
+      This type of entry can be used to communicate with the user
+      without asking for any input.
   validations:
     required: false
 
