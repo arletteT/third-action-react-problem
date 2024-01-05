@@ -7,6 +7,7 @@ body:
 - type: checkboxes
   id: verification
   attributes:
+    label: Please confirm the following
     description: |
       Thanks for taking the time to fill out this bug report!
       Bug Report issues are for concrete, actionable bugs only
