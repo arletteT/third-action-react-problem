@@ -1,6 +1,6 @@
 name: Bug Report
 description: File a bug report
-title: "[Issue: Bug Report]: "
+title: 
 
 body:
 
@@ -67,7 +67,7 @@ body:
     label: Modifications
     description: Have you modified the installation, deployment topology, or container images in any way? If yes, please explain in the "additional information" field at the bottom of the form
     options:
-      - "NO"
+      - "No"
       - "Yes"
   validations:
     required: true
@@ -79,6 +79,9 @@ body:
     description: "What version of the application are you running?"
   validations:
     required: true 
+  style:
+    width: 200px  # Adjust the width as needed
+    height: 100px  # Adjust the height as needed
 
 - type: textarea
   id: system
