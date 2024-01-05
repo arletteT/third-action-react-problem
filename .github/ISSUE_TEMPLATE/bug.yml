@@ -5,7 +5,7 @@ title: "[Issue: Bug Report]: "
 body:
 
   # CHECKBOX:
-  - type: checkboxes
+- type: checkboxes
     id: checkboxes
     attributes:
       label: What kinds of M&Ms do you like?
